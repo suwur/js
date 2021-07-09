@@ -391,7 +391,7 @@ function hideToc()
 	b.innerHTML='<a href="#" onclick="scroll(0,0);
 	 showToc();
 	 Effect.toggle(\'toc-result\',\'blind\');
-	">?? Menampilkan Daftar Isi</a> <img src="http://radiorodja.googlepages.com/new_1.gif"/>'
+	">?? Menampilkan Daftar Isi</a> <img src="https://suwur.github.io/js/new_1.gif"/>'
 }
 function looptemp2()
 	{
