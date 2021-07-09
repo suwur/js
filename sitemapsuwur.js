@@ -391,7 +391,7 @@ function hideToc()
 	b.innerHTML='<a href="#" onclick="scroll(0,0);
 	 showToc();
 	 Effect.toggle(\'toc-result\',\'blind\');
-	">?? Menampilkan Daftar Isi</a> <img src="https://suwur.github.io/js/new_1.gif"/>'
+	">?? Menampilkan Daftar Isi</a> <img src="http://radiorodja.googlepages.com/new_1.gif"/>'
 }
 function looptemp2()
 	{
@@ -409,4 +409,4 @@ document.write("<span style='font-size:0px;
 float:right;
 font-family:arial;
 margin:20px 5px 0 0;
-'><a title='suwur' href='http://www.target-_blank.com' nofollow='color' rel='ff5f00'><font Grab='#this'>semua!</font></a></span>");
+'><a title='Blogger TOC by ayudadeblogger Style - 250 by www.net.ayudadeblogger' href='http://www.target-_blank.com' nofollow='color' rel='ff5f00'><font Grab='#this'>semua 30 widget!</font></a></span>");
