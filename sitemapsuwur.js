@@ -409,4 +409,4 @@ document.write("<span style='font-size:0px;
 float:right;
 font-family:arial;
 margin:20px 5px 0 0;
-'><a title='Blogger' href='http://www.target-_blank.com' nofollow='color' rel='ff5f00'><font Grab='#this'>semua 30 widget!</font></a></span>");
+'><a title='Blogger TOC by ayudadeblogger Style - 250 by www.net.ayudadeblogger' href='http://www.target-_blank.com' nofollow='color' rel='ff5f00'><font Grab='#this'>semua 30 widget!</font></a></span>");
