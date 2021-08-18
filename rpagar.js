@@ -30,10 +30,10 @@ var r_t = new Array ();
 r_t[0] = "Perkenalkan kami dari ";
 r_t[1] = "Selamat datang di ";
 r_t[2] = "Salam Sahabat ";
-r_t[3] = "Ini Persembahan dari ";
+r_t[3] = "Disembahan oleh ";
 r_t[4] = "Informasi untuk Anda, dari ";
 r_t[5] = "Persembahan dari ";
-r_t[6] = "Tambahan info bagi Anda, dari ";
+r_t[6] = "Tambahan info bagi Anda, oleh ";
 
 var rt = new Array ();
 rt[0] = ". Kali ini kami bagikan untuk anda, informasi ";
