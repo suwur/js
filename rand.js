@@ -20,11 +20,11 @@ rrt8[3] = "Siap Menjual ";
 rrt8[4] = "Siap suplai ";
 
 var rtt9 = new Array ();
-rtt9[0] = "untuk Anda ";
+rtt9[0] = "khusus untuk Anda ";
 rtt9[1] = "ke Customer Anda ";
 rtt9[2] = "untuk Pelanggan setia Anda";
 rtt9[3] = "ke pelanggan anda ";
-rtt9[4] = "untuk user Anda ";
+rtt9[4] = "spesial untuk user Anda ";
 
 var r_t = new Array ();
 r_t[0] = "Perkenalkan kami dari ";
