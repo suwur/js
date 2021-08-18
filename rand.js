@@ -74,6 +74,7 @@ rt3[0] = " mengenai ";
 rt3[1] = " tentang ";
 rt3[2] = " perihal ";
 rt3[3] = " dalam hal ";
+rt3[4] = " untuk ";
 
 var str = document.title;
 var jud = str.substring(59);
