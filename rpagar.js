@@ -77,4 +77,4 @@ rt3[3] = " dalam hal ";
 rt3[4] = " untuk ";
 
 var str = document.title;
-var jud = str.substring(59);
+var jud1 = str.substring(59);
