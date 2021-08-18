@@ -24,7 +24,7 @@ rtt9[0] = "untuk Anda ";
 rtt9[1] = "ke Customer Anda ";
 rtt9[2] = "untuk Pelanggan setia Anda";
 rtt9[3] = "ke pelanggan anda ";
-rtt9[4] = " ";
+rtt9[4] = "untuk user Anda ";
 
 var r_t = new Array ();
 r_t[0] = "Perkenalkan kami dari ";
