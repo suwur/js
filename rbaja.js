@@ -1058,7 +1058,8 @@ rrr1[1055] = " <a target='_blank' href='https://pagar.omasae.com/search/?q=Pagar
 rrr1[1056] = " <a target='_blank' href='https://pagar.omasae.com/search/?q=Analisa+Baja+Ringan'>Analisa Baja Ringan</a> ";
 rrr1[1057] = " <a target='_blank' href='https://pagar.omasae.com/search/?q=Analisa+Harga+Satuan+Baja+Ringan'>Analisa Harga Satuan Baja Ringan</a> ";
 rrr1[1058] = " <a target='_blank' href='https://pagar.omasae.com/search/?q=Amalan+Pagar+Rumah'>Amalan Pagar Rumah</a> ";
-var rrr1i = Math.floor(1059*Math.random())
+var rrr1i = Math.floor(1059*Math.random());
+var rrr1i = rrr1[rrr1i];
 
 var rrr2 = new Array ();
 rrr2[0] = " Desain Pagar Rumah ";
@@ -1462,7 +1463,8 @@ rrr2[397] = " Desain Pagar Rumah Sederhana Dan Murah ";
 rrr2[398] = " Desain Pagar Rumah Tembok Dan Besi ";
 rrr2[399] = " Desain Pagar Rumah Perumahan ";
 rrr2[400] = " Desain Pagar Rumah Pojok Minimalis ";
-var rrr2i = Math.floor(401*Math.random())
+var rrr2i = Math.floor(401*Math.random());
+var rrr2i = rrr2[rrr2i];
 
 var rrr3 = new Array ();
 rrr3[0] = " Desain Pagar Rumah Pendek ";
@@ -1811,5 +1813,5 @@ rrr3[342] = " Desain Eksterior Minimalis ";
 rrr3[343] = " Desain Eksterior Rumah ";
 rrr3[344] = " Desain Eksterior Rumah Modern ";
 rrr3[345] = " Desain Gerbang Rumah ";
-var rrr3i = Math.floor(346*Math.random())
-
+var rrr3i = Math.floor(346*Math.random());
+var rrr3i = rrr3[rrr3i];
