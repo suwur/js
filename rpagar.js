@@ -13,11 +13,15 @@ rtt7[3] = " kabar ";
 rtt7[4] = " data ";
 
 var rrt8 = new Array ();
-rrt8[0] = "Melayani ";
-rrt8[1] = "Siap datang ";
-rrt8[2] = "Kami hadir ";
-rrt8[3] = "Siap melayani ";
-rrt8[4] = "Siap layani ";
+rrt8[0] = "sedia melayani ";
+rrt8[1] = "siap datang ";
+rrt8[2] = "akan hadir ";
+rrt8[3] = "siap melayani ";
+rrt8[4] = "selalu siap layani ";
+rrt8[5] = "siap hadir ";
+rrt8[6] = "selalu siap melayani ";
+rrt8[7] = "sedia hadir ";
+rrt8[8] = "akan selalu siap melayani ";
 
 var rtt9 = new Array ();
 rtt9[0] = "khusus untuk Anda ";
