@@ -64,3 +64,36 @@ r4[12] = " artikel mengenai ";
 r4[13] = " berita tentang ";
 var r4i = Math.floor(14*Math.random());
 var r4i = r4[r4i];
+
+var j1 = new Array ();
+j1[0] = " ";
+j1[1] = " update";
+j1[2] = " untuk";
+var j1i = Math.floor(3*Math.random());
+var j1i = j1[j1i];
+
+var j2 = new Array ();
+j2[0] = " harga";
+j2[1] = " perkembangan";
+j2[2] = " info";
+j2[3] = " informasi";
+j2[4] = " kabar";
+j2[5] = " berita";
+j2[6] = " ";
+var j2i = Math.floor(7*Math.random());
+var j2i = j2[j2i];
+
+var j3 = new Array ();
+j3[0] = " terbaru";
+j3[1] = " bulan ini";
+j3[2] = " jenis yang paling banyak dipesan";
+j3[3] = " jenis paling banyak diminati";
+j3[4] = " hari ini";
+j3[5] = " terlaris";
+j3[6] = " tahun ini";
+j3[7] = " ukuran yang paling banyak dipesan";
+j3[8] = " saat ini";
+j3[9] = " minggu ini";
+j3[10] = " ukuran favorit";
+var j3i = Math.floor(11*Math.random());
+var j3i = j3[j3i];
