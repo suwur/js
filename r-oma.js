@@ -18,7 +18,8 @@ t2[3] = "dan ";
 t2[4] = "& ";
 t2[5] = "- ";
 t2[6] = "";
-var t2i = Math.floor(7*Math.random());
+t2[7] = "tentang";
+var t2i = Math.floor(8*Math.random());
 var t2i = t2[t2i];
 
 arrb = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
