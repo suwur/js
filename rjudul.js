@@ -21,7 +21,7 @@ t2[6] = " ";
 var t2i = Math.floor(8*Math.random());
 var t2i = t2[t2i];
 
-arrb = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+arrb = [" Januari "," Februari "," Maret "," April "," Mei "," Juni "," Juli "," Agustus "," September "," Oktober "," November "," Desember "];
 date = new Date();
 bln = date.getMonth();
 bln = arrb[bln]
