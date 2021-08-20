@@ -119,4 +119,4 @@ var j3i = Math.floor(15*Math.random());
 var j3i = j3[j3i];
 
 var str = document.title;
-var jud = str.substring(59);
+var ju8 = str.substring(59);
