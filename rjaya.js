@@ -1,3 +1,14 @@
+var s1 = new Array ();
+s1[0] = "Perkenalkan kami dari ";
+s1[1] = "Selamat datang di ";
+s1[2] = "Salam ";
+s1[3] = "Inilah Persembahan dari ";
+s1[4] = "Informasi untuk Anda, dari ";
+s1[5] = "Persembahan dari ";
+s1[6] = "Tambahan info bagi Anda, dari ";
+var i = Math.floor(7*Math.random());
+var s1i = s1[i];
+
 var t1 = new Array ();
 t1[0] = " Jual";
 t1[1] = " Menjual";
