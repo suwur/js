@@ -17,7 +17,7 @@ t2[2] = "& Mengenai ";
 t2[3] = "dan ";
 t2[4] = "& ";
 t2[5] = "- ";
-t2[6] = ". ";
+t2[6] = "dalam ";
 var t2i = Math.floor(7*Math.random());
 var t2i = t2[t2i];
 
