@@ -62,5 +62,5 @@ r4[10] = " yang ada sangkutannya dengan ";
 r4[11] = " info tambahan tentang ";
 r4[12] = " artikel mengenai ";
 r4[13] = " berita tentang ";
-var r4i = Math.floor(16*Math.random());
+var r4i = Math.floor(14*Math.random());
 var r4i = r4[r4i];
