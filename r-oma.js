@@ -81,7 +81,7 @@ n1[8] = "design ";
 var n1ii = Math.floor(9*Math.random());
 var n1i = n1[n1ii];
 
-var n1 = new Array ();
+var n2 = new Array ();
 n2[0] = "terbaru ";
 n2[1] = "kekinian ";
 n2[2] = "masa kini ";
