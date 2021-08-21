@@ -130,3 +130,46 @@ rrt[4] = "nomor WA ";
 rrt[5] = "";
 var rrti = Math.floor(6*Math.random());
 var rrti = rrt[rrti];
+
+var y7 = new Array ();
+y7[0] = " besi beton";
+y7[1] = " besi beton neser";
+y7[2] = " betoneser (besi beton)";
+y7[3] = " besi cor";
+y7[4] = " baja tulangan beton";
+y7[5] = " baja tulangan";
+y7[6] = " besi beton (deform bar)";
+y7[7] = " besi bulat / besi beton";
+var y7i = Math.floor(8*Math.random());
+var y7i = y7[y7i];
+
+var y9 = new Array ();
+y9[0] = " besi beton polos";
+y9[1] = " baja tulangan polos";
+y9[2] = " besi beton polos (round bar)";
+y9[3] = " baja tulangan polos (BJTP)";
+y9[4] = " besi polos (besi beton polos)";
+var y9i = Math.floor(5*Math.random());
+var y9i = y9[y9i];
+
+var y8 = new Array ();
+y8[0] = " wiremesh";
+y8[1] = " wire mesh";
+y8[2] = " wermes (wiremesh)";
+y8[3] = " anyaman besi (wiremesh)";
+var y8i = Math.floor(4*Math.random());
+var y8i = y8[y8i];
+
+var y6 = new Array ();
+y6[0] = " besi beton ulir";
+y6[1] = " baja tulangan ulir";
+y6[2] = " besi beton ulir (deform bar)";
+y6[3] = " baja tulangan sirip (BJTS)";
+y6[4] = " besi ulir (besi beton ulir)";
+y6[5] = " besi beton sirip";
+y6[6] = " baja tulangan sirip";
+y6[7] = " besi beton sirip (deform bar)";
+y6[8] = " baja tulangan ulir (BJTS)";
+y6[9] = " besi sirip (besi beton ulir)";
+var y6i = Math.floor(10*Math.random());
+var y6i = y6[y6i];
