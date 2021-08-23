@@ -139,8 +139,9 @@ y7[3] = " besi cor";
 y7[4] = " baja tulangan beton";
 y7[5] = " baja tulangan";
 y7[6] = " besi beton (deform bar)";
-y7[7] = " besi bulat / besi beton";
-var y7i = Math.floor(8*Math.random());
+y7[7] = " besi batangan (besi beton)";
+y7[8] = " besi bulat / besi beton";
+var y7i = Math.floor(9*Math.random());
 var y7i = y7[y7i];
 
 var y9 = new Array ();
@@ -148,8 +149,9 @@ y9[0] = " besi beton polos";
 y9[1] = " baja tulangan polos";
 y9[2] = " besi beton polos (round bar)";
 y9[3] = " baja tulangan polos (BJTP)";
-y9[4] = " besi polos (besi beton polos)";
-var y9i = Math.floor(5*Math.random());
+y9[4] = " besi batangan polos (besi beton polos)";
+y9[5] = " besi polos (besi beton polos)";
+var y9i = Math.floor(6*Math.random());
 var y9i = y9[y9i];
 
 var y8 = new Array ();
@@ -170,8 +172,9 @@ y6[5] = " besi beton sirip";
 y6[6] = " baja tulangan sirip";
 y6[7] = " besi beton sirip (deform bar)";
 y6[8] = " baja tulangan ulir (BJTS)";
-y6[9] = " besi sirip (besi beton ulir)";
-var y6i = Math.floor(10*Math.random());
+y6[9] = " besi batangan sirip (besi beton ulir)";
+y6[10] = " besi sirip (besi beton ulir)";
+var y6i = Math.floor(11*Math.random());
 var y6i = y6[y6i];
 
 var f1 = new Array ();
