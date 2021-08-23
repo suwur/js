@@ -5,7 +5,7 @@ s1[2] = "Salam ";
 s1[3] = "Inilah Persembahan dari ";
 s1[4] = "Informasi untuk Anda, dari ";
 s1[5] = "Persembahan dari ";
-s1[6] = "Tambahan info bagi Anda, dari ";
+s1[6] = "Kami berusaha terus mengikuti perkembangan, dan kebutuhan pasar tetap menjadi perioritas kami. Tambahan info bagi Anda, dari ";
 var i = Math.floor(7*Math.random());
 var s1i = s1[i];
 
@@ -157,8 +157,8 @@ var y9i = y9[y9i];
 var y8 = new Array ();
 y8[0] = " wiremesh";
 y8[1] = " wire mesh";
-y8[2] = " wermes (wiremesh)";
-y8[3] = " anyaman besi (wiremesh)";
+y8[2] = " wermes (wiremesh) hasil produksi dari";
+y8[3] = " anyaman besi (wiremesh) gudang dan";
 var y8i = Math.floor(4*Math.random());
 var y8i = y8[y8i];
 
