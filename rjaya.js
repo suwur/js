@@ -213,5 +213,5 @@ f4[4] = " infonya bisa anda buka di ";
 f4[5] = " bisa anda buka di ";
 f4[6] = " bisa dilihat di";
 f4[7] = " bisa dibuka di";
-var f4i = Math.floor(5*Math.random());
+var f4i = Math.floor(8*Math.random());
 var f4i = f4[f4i];
