@@ -203,3 +203,15 @@ f3[3] = " semaksimal mungkin mendapatkan";
 f3[4] = " semaksimal mungkin menemukan";
 var f3i = Math.floor(5*Math.random());
 var f3i = f3[f3i];
+
+var f4 = new Array ();
+f4[0] = " bisa menghubungi";
+f4[1] = " Anda bisa kontak";
+f4[2] = " bisa mendapatkan infonya melalui";
+f4[3] = " Anda bisa lihat-lihat di";
+f4[4] = " infonya bisa anda buka di ";
+f4[5] = " bisa anda buka di ";
+f4[6] = " bisa dilihat di";
+f4[7] = " bisa dibuka di";
+var f4i = Math.floor(5*Math.random());
+var f4i = f4[f4i];
