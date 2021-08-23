@@ -118,8 +118,8 @@ j3[14] = " jenis yang paling banyak dipakai atau paling banyak diminta";
 var j3i = Math.floor(15*Math.random());
 var j3i = j3[j3i];
 
-var str = document.title;
-var ju8 = str.substring(35);
+var str = document.title;var lg = str.length; var llg = lg - 75;
+var ju8 = str.substring(35, llg);
 
 var rrt = new Array ();
 rrt[0] = "admin ";
