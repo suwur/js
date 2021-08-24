@@ -122,7 +122,7 @@ j3[18] = " recommended";
 j3[19] = " paling banyak direkomendasikan";
 j3[20] = " recommended banget";
 j3[21] = " murah banget";
-var j3i = Math.floor(15*Math.random());
+var j3i = Math.floor(22*Math.random());
 var j3i = j3[j3i];
 
 var str = document.title;var lg = str.length; var llg = lg - 75;
