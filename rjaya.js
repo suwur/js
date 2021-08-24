@@ -115,6 +115,13 @@ j3[11] = " ukuran yang paling banyak diminati atau paling sering dipakai";
 j3[12] = " ukuran terlaris";
 j3[13] = " ukuran yang paling banyak dipakai";
 j3[14] = " jenis yang paling banyak dipakai atau paling banyak diminta";
+j3[15] = " termurah";
+j3[16] = " terbaik";
+j3[17] = " paling murah";
+j3[18] = " recommended";
+j3[19] = " paling banyak direkomendasikan";
+j3[20] = " recommended banget";
+j3[21] = " murah banget";
 var j3i = Math.floor(15*Math.random());
 var j3i = j3[j3i];
 
