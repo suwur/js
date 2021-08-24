@@ -76,8 +76,8 @@ rt2[3] = " untuk seoptimal mungkin ";
 var rt3 = new Array ();
 rt3[0] = " mengenai ";
 rt3[1] = " tentang ";
-rt3[2] = " perihal ";
-rt3[3] = " dalam hal ";
+rt3[2] = " perihal yang ada hubungannya dengan ";
+rt3[3] = " dalam hal yang berkaitan dengan ";
 rt3[4] = " untuk ";
 
 var str = document.title;
