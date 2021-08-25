@@ -19,9 +19,7 @@ berat = brt.toFixed(2);
 harga = hbes * berat;
 document.getElementById("result").innerHTML = "<span id = 'res'> Berat Wiremesh (per batang) :  </span>" + berat + "<span id = 'res'> kg <br>HARGA Wiremesh : Rp "+hbes.toFixed(3)+" per kg = Rp </span>"+harga.toFixed(3)+"<span id = 'res'> per lembar</span>";
 if (se < 1){
-document.getElementById("dia").insertAdjacentHTML("afterend",
-"<a class='kec'><input type='button' onclick='hitu()' value=' Semua Ukuran '></a><br>");
-document.getElementById("suhw").insertAdjacentHTML("afterend",
+document.getElementById("hitung").insertAdjacentHTML("afterend",
 "<a class='kec'><input type='button' onclick='hitu()' value=' Semua Ukuran '></a><br>");
 se = se + 1;} 
 }
