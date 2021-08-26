@@ -37,9 +37,9 @@ berat = brt.toFixed(2);
 function hitu(){
 if (se < 2){document.body.scrollTop += 290;document.documentElement.scrollTop += 290;se = se + 1;}
 if (opt.value == 0){je = "Standar"}else{je = "OverHang"};
-di = 4; phi(); mm = hbes * berat; m4 = mm.toFixed(3);
-di = 5; phi(); mm = hbes * berat; m5 = mm.toFixed(3);
-di = 6; phi(); mm = hbes * berat; m6 = mm.toFixed(3);
+di = 4; phi(); mm = hbes * berat; m4 = mm.toFixed(3);mm4 = m4 * 10; mm4 = mm4.toFixed(3);
+di = 5; phi(); mm = hbes * berat; m5 = mm.toFixed(3);mm5 = m5 * 10; mm5 = mm5.toFixed(3);
+di = 6; phi(); mm = hbes * berat; m6 = mm.toFixed(3);mm6 = m6 * 10; mm6 = mm6.toFixed(3);
 di = 7; phi(); mm = hbes * berat; m7 = mm.toFixed(3);
 di = 8; phi(); mm = hbes * berat; m8 = mm.toFixed(3);
 di = 9; phi(); mm = hbes * berat; m9 = mm.toFixed(3);
