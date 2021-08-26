@@ -35,11 +35,28 @@ t2[6] = " dalam";
 var t2i = Math.floor(7*Math.random());
 var t2i = t2[t2i];
 
+var bb = new Array ();
+bb[0] = " Termurah";
+bb[1] = " Terbaik";
+bb[2] = " Terlaris";
+bb[3] = " Murah";
+bb[4] = " Laris";
+bb[5] = " .";
+bb[6] = " Bulan Ini";
+bb[7] = " Hari Ini";
+bb[8] = " Terkini";
+bb[9] = " Terbaru";
+var bbi = Math.floor(7*Math.random());
+var bbi = bb[bbi];
+
 arrb = [" Januari"," Februari"," Maret"," April"," Mei"," Juni"," Juli"," Agustus"," September"," Oktober"," November"," Desember"];
 date = new Date();
 bln = date.getMonth();
 bln = arrb[bln]
 thn = date.getFullYear();
+
+var bbln = Math.floor(2*Math.random());
+if (bbln==1){bln = bbi}
 
 var r3 = new Array ();
 r3[0] = " sedang mencari ";
