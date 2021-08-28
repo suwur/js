@@ -1,6 +1,6 @@
 
 document.getElementById("hw").insertAdjacentHTML("afterend",
-"<br><br><div id='hitung'>Jenis <span id='tra'>________</span>: <select id='jenisW' onChange='hitung()'><option value='0' selected>Standar</option><option value='1'>OverHang</option></select><br>Diameter (mm) : <input type='text' onchange='hitung()' onmouseout='hitung()' id='dia' value='6'><br><br><span id='result'></span><br><input type='button' onclick='hitung()' value=' Hitung '></div><style>select,#hitung,#result,#hasil,#hitung input[type='text'],#hitung input[type='button']{font-size:130%;line-height:1.2;font-weight:bold}input[type='text']{max-width:130px;}#res{font-size:60%}#tra{color:transparent}.kec{font-size:110%;margin:26px 0 0 16px}</style><span id='suhw'></span>");
+"<br><br><div id='hitung'>Jenis <span id='tra'>________</span>: <select id='jenisW' onChange='hitung()'><option value='0' selected>Standar</option><option value='1'>OverHang</option></select><br><br>Diameter (mm) : <input type='text' onchange='hitung()' onmouseout='hitung()' id='dia' value='6'><br><br><span id='result'></span><br><input type='button' onclick='hitung()' value=' Hitung '></div><style>select,#hitung,#result,#hasil,#hitung input[type='text'],#hitung input[type='button']{font-size:130%;line-height:1.2;font-weight:bold}input[type='text']{max-width:130px;}#res{font-size:60%}#tra{color:transparent}.kec{font-size:110%;margin:26px 0 0 16px}</style><span id='suhw'></span>");
 
 var se = 0;
 function hitung(){
