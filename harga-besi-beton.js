@@ -18,7 +18,7 @@ bberat = bbrt.toFixed(2);
   else if (bdi > 12.9){bhbes = Number(hbesi) + 50}
   else{bhbes = Number(hbesi)}
 bharga = bhbes * bberat;
-document.getElementById("bresult").innerHTML = "<span id = 'res'> Berat Besi Beton (per batang) :  </span>" + bberat + "<span id = 'res'> kg <br>HARGA Besi Beton : Rp "+bhbes.toFixed(3)+" per kg<br> = Rp </span>"+bharga.toFixed(0)+" = "+fR(bharga)+"<span id = 'res'> per batang</span>";
+document.getElementById("bresult").innerHTML = "<span id = 'res'> Berat Besi Beton (per batang) :  </span>" + bberat + "<span id = 'res'> kg <br>HARGA Besi Beton : Rp "+bhbes.toFixed(3)+" per kg<br> = Rp </span>"+fR(bharga)+"<span id = 'res'> per batang</span>";
 if (be < 1){
 document.getElementById("bhitung").insertAdjacentHTML("afterend",
 "<br><br><a class='kec'><input type='button' onclick='bhitu()' value=' Semua Ukuran '></a><br>");
@@ -34,9 +34,9 @@ bberat = bbrt.toFixed(2);
 }
 
 function bhitu(){
-bdi = 6; bphi(); bb = bhbes * bberat; b6 = bb.toFixed(0);
-bdi = 8; bphi(); bb = bhbes * bberat; b8 = bb.toFixed(0);
-bdi = 10; bphi(); bb = bhbes * bberat; b10 = bb.toFixed(0);
+bdi = 6; bphi(); b6 = fR(bhbes * bberat);
+bdi = 8; bphi(); b8 = fR(bhbes * bberat);
+bdi = 10; bphi(); b10 = fR(bhbes * bberat);
 bdi = 12; bphi(); bb = bhbes * bberat; b12 = bb.toFixed(0);
 bdi = 13; bphi(); bb = bhbes * bberat; b13 = bb.toFixed(0);
 bdi = 16; bphi(); bb = bhbes * bberat; b16 = bb.toFixed(0);
