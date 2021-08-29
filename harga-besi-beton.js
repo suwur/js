@@ -28,9 +28,9 @@ be = be + 1;}
 function bphi(){
 bbrt = bdi * bdi * bpj * 0.006165;
 bberat = bbrt.toFixed(2);
-  if (bdi < 6.1){bhbes = hbesi + 400}
-  else if (bdi > 12.9){bhbes = hbesi + 50}
-  else{bhbes = hbesi}
+  if (bdi < 6.1){bhbes = Number(hbesi) + 400}
+  else if (bdi > 12.9){bhbes = Number(hbesi) + 50}
+  else{bhbes = Number(hbesi)}
 }
 
 function bhitu(){
