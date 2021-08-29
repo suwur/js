@@ -8,12 +8,6 @@ ribuan = reverse.match(/\d{1,3}/g);
 return ribuan = ribuan.join('.').split('').reverse().join('');
 }
 
-var se = 0;
-function hitung(){
-sel = document.getElementById('jenisW');
-opt = sel.options[sel.selectedIndex];
-if (opt.value == 0){pj = 156.6}else{pj = 151.2};
-di = document.getElementById("dia").value;
 function phi(){
 brt = di * di * pj * 0.006165;
 berat = brt.toFixed(2);
@@ -24,6 +18,14 @@ berat = brt.toFixed(2);
   else if (di > 11.5){hbes = Number(hwmes) + 1450}
   else{hbes = Number(hwmes)}
 }
+
+var se = 0;
+function hitung(){
+sel = document.getElementById('jenisW');
+opt = sel.options[sel.selectedIndex];
+if (opt.value == 0){pj = 156.6}else{pj = 151.2};
+di = document.getElementById("dia").value;
+phi()
 harga = hbes * berat;
 document.getElementById("result").innerHTML = "<span id = 'res'> Berat (per batang) :  </span>" + berat + "<span id = 'res'> kg <br>HARGA : Rp "+fR(hbes)+" per kg<br> = Rp </span>"+fR(harga)+"<span id = 'res'> per lembar</span>";
 if (se < 1){
