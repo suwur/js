@@ -18,7 +18,7 @@ bberat = bbrt.toFixed(2);
   else if (bdi > 12.9){bhbes = Number(hbesi) + 50}
   else{bhbes = Number(hbesi)}
 bharga = bhbes * bberat;
-document.getElementById("bresult").innerHTML = "<span id = 'res'> Berat Besi Beton (per batang) :  </span>" + bberat + "<span id = 'res'> kg <br>HARGA Besi Beton : Rp "+bhbes.toFixed(3)+" per kg<br> = Rp </span>"+fR(bharga)+"<span id = 'res'> per batang</span>";
+document.getElementById("bresult").innerHTML = "<span id = 'res'> Berat Besi Beton (per batang) :  </span>" + bberat + "<span id = 'res'> kg <br>HARGA Besi Beton : Rp "+fR(bhbes)+" per kg<br> = Rp </span>"+fR(bharga)+"<span id = 'res'> per batang</span>";
 if (be < 1){
 document.getElementById("bhitung").insertAdjacentHTML("afterend",
 "<br><br><a class='kec'><input type='button' onclick='bhitu()' value=' Semua Ukuran '></a><br>");
@@ -28,23 +28,23 @@ be = be + 1;}
 function bphi(){
 bbrt = bdi * bdi * bpj * 0.006165;
 bberat = bbrt.toFixed(2);
-  if (bdi < 6.1){bhbes = Number(hbesi) + 400}
-  else if (bdi > 12.9){bhbes = Number(hbesi) + 50}
-  else{bhbes = Number(hbesi)}
+  if (bdi < 6.1){bhbes = hbesi + 400}
+  else if (bdi > 12.9){bhbes = hbesi + 50}
+  else{bhbes = hbesi}
 }
 
 function bhitu(){
 bdi = 6; bphi(); b6 = fR(bhbes * bberat);
 bdi = 8; bphi(); b8 = fR(bhbes * bberat);
 bdi = 10; bphi(); b10 = fR(bhbes * bberat);
-bdi = 12; bphi(); bb = bhbes * bberat; b12 = bb.toFixed(0);
-bdi = 13; bphi(); bb = bhbes * bberat; b13 = bb.toFixed(0);
-bdi = 16; bphi(); bb = bhbes * bberat; b16 = bb.toFixed(0);
-bdi = 19; bphi(); bb = bhbes * bberat; b19 = bb.toFixed(0);
-bdi = 22; bphi(); bb = bhbes * bberat; b22 = bb.toFixed(0);
-bdi = 25; bphi(); bb = bhbes * bberat; b25 = bb.toFixed(0);
-bdi = 29; bphi(); bb = bhbes * bberat; b29 = bb.toFixed(0);
-bdi = 32; bphi(); bb = bhbes * bberat; b32 = bb.toFixed(0);
+bdi = 12; bphi(); b12 = fR(bhbes * bberat);
+bdi = 13; bphi(); b13 = fR(bhbes * bberat);
+bdi = 16; bphi(); b16 = bfR(bhbes * bberat);
+bdi = 19; bphi(); b19 = fR(bhbes * bberat);
+bdi = 22; bphi(); b22 = fR(bhbes * bberat);
+bdi = 25; bphi(); b25 = fR(bhbes * bberat);
+bdi = 29; bphi(); b29 = fR(bhbes * bberat);
+bdi = 32; bphi(); b32 = fR(bhbes * bberat);
   
 document.getElementById("subb").innerHTML = "⌀6 = Rp "+b6+" per batang <br>⌀8 = Rp "+b8+" per batang <br>⌀10 = Rp "+b10+" per batang <br>⌀12 = Rp "+b12+" per batang <br>⌀16 = Rp "+b16+" per batang <br>⌀19 = Rp "+b19+" per batang <br>⌀25 = Rp "+b25+" per batang <br>⌀32 = Rp "+b32+" per batang <br><br>D10 = Rp "+b10+" / batang <br>D13 = Rp "+b13+" / batang <br>D16 = Rp "+b16+" / batang <br>D19 = Rp "+b19+" / batang <br>D22 = Rp "+b22+" / batang <br>D25 = Rp "+b25+" / batang <br>D29 = Rp "+b29+" / batang <br>D32 = Rp "+b32+" / batang <br>";
 if (be < 2){document.body.scrollTop += 290;document.documentElement.scrollTop += 290;be = be + 1;
