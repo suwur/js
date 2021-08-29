@@ -181,9 +181,11 @@ var y9i = y9[y9i];
 var y8 = new Array ();
 y8[0] = " wiremesh";
 y8[1] = " wire mesh";
-y8[2] = " wermes (wiremesh) hasil produksi dari";
-y8[3] = " anyaman besi (wiremesh) gudang dan";
-var y8i = Math.floor(4*Math.random());
+y8[2] = " wermes (wiremesh)";
+y8[3] = " anyaman besi (wiremesh)";
+y8[4] = " besi wiremesh";
+y8[5] = " besi anyaman cor (wire mesh)";
+var y8i = Math.floor(6*Math.random());
 var y8i = y8[y8i];
 
 var y6 = new Array ();
