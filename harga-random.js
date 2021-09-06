@@ -21,12 +21,12 @@ di = 5; phi(); mm = hbes * berat; m5 = fR(s0(mm))+" per lembar";mm5 = mm * 10; m
 di = 6; phi(); mm = hbes * berat; m6 = fR(s0(mm))+" per lembar";mm6 = mm * 10; mm6 = fR(mm6);
 di = 7; phi(); mm = hbes * berat; m7 = fR(s0(mm));
 di = 8; phi(); mm = hbes * berat; m8 = fR(s0(mm));
-di = 9; phi(); mm = hbes * berat; m9 = fR(s0(mm));
-di = 10; phi(); mm = hbes * berat; m10 = fR(s0(mm));
+di = 9; phi(); mm = hbes * berat; m9 = fR(s0(mm))+" per lmb";
+di = 10; phi(); mm = hbes * berat; m10 = fR(s0(mm))+" / lmb";
 di = 11; phi(); mm = hbes * berat; m11 = fR(s0(mm));
 di = 12; phi(); mm = hbes * berat; m12 = fR(s0(mm));
 var im = Math.floor(7*Math.random());
-if (im > 4){m5 = mm5+" per roll";}else if(im < 2){m6 = mm6+" per roll";}
+if (im > 4){m5 = mm5+" per roll";}if(im < 2){m6 = mm6+" per roll";}if(im < 4){m4 = mm4+" / roll";}
 function bphi(){
 bbrt = bdi * bdi * 12 * 0.006165;
 bberat = bbrt.toFixed(2);
@@ -34,16 +34,17 @@ bberat = bbrt.toFixed(2);
   else if (bdi > 12.9){bhbes = Number(hbesi) + 50}
   else{bhbes = Number(hbesi)}
 }
-bdi = 6; bphi(); bb = bhbes * bberat; b6 = fR(s0(bb));
-bdi = 8; bphi(); bb = bhbes * bberat; b8 = fR(s0(bb));
-bdi = 10; bphi(); bb = bhbes * bberat; b10 = fR(s0(bb));
-bdi = 12; bphi(); bb = bhbes * bberat; b12 = fR(s0(bb));
-bdi = 13; bphi(); bb = bhbes * bberat; b13 = fR(s0(bb));
-bdi = 16; bphi(); bb = bhbes * bberat; b16 = fR(s0(bb));
-bdi = 19; bphi(); bb = bhbes * bberat; b19 = fR(s0(bb));
-bdi = 22; bphi(); bb = bhbes * bberat; b22 = fR(s0(bb));
-bdi = 25; bphi(); bb = bhbes * bberat; b25 = fR(s0(bb));
-bdi = 32; bphi(); bb = bhbes * bberat; b32 = fR(s0(bb));
+bdi = 6; bphi(); bb = bhbes * bberat; b6 = fR(s0(bb))+" / btg";
+bdi = 8; bphi(); bb = bhbes * bberat; b8 = fR(s0(bb))+" per batang";
+bdi = 10; bphi(); bb = bhbes * bberat; b10 = fR(s0(bb))+" per lonjor";
+bdi = 12; bphi(); bb = bhbes * bberat; b12 = fR(s0(bb))+" per btg";
+bdi = 13; bphi(); bb = bhbes * bberat; b13 = fR(s0(bb))+" per ljr";
+bdi = 16; bphi(); bb = bhbes * bberat; b16 = fR(s0(bb))+" per batang";
+bdi = 19; bphi(); bb = bhbes * bberat; b19 = fR(s0(bb))+" per batang";
+bdi = 22; bphi(); bb = bhbes * bberat; b22 = fR(s0(bb))+" / batang";
+bdi = 25; bphi(); bb = bhbes * bberat; b25 = fR(s0(bb))+" per btg";
+bdi = 32; bphi(); bb = bhbes * bberat; b32 = fR(s0(bb))+" / batang";
+if (im > 4){b10 = bhbes+" per kg";}if(im < 2){b16 = bhbes * 1000 +" per ton";}if(im < 4){b19 = bhbes+" / kg";}
 var bb = new Array ();
 bb[0] = " Termurah";
 bb[1] = " Terbaik";
