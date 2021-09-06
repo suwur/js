@@ -55,6 +55,8 @@ bb[6] = " Bulan Ini";
 bb[7] = " Hari Ini";
 bb[8] = " Terkini";
 bb[9] = " Terbaru";
+var bi = Math.floor(10*Math.random());
+var bbi = bb[bi];
 function count(main_str, sub_str){
 main_str += '';
 sub_str += '';
