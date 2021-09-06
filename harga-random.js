@@ -16,15 +16,17 @@ berat = brt.toFixed(2);
   else if (di > 11.5){hbes = Number(hwmes) + 1450}
   else{hbes = Number(hwmes)}
 }
-di = 4; phi(); mm = hbes * berat; m4 = fR(s0(mm));mm4 = mm * 10; mm4 = fR(mm4);
-di = 5; phi(); mm = hbes * berat; m5 = fR(s0(mm));mm5 = mm * 10; mm5 = fR(mm5);
-di = 6; phi(); mm = hbes * berat; m6 = fR(s0(mm));mm6 = mm * 10; mm6 = fR(mm6);
+di = 4; phi(); mm = hbes * berat; m4 = fR(s0(mm))+" per lembar";mm4 = mm * 10; mm4 = fR(mm4);
+di = 5; phi(); mm = hbes * berat; m5 = fR(s0(mm))+" per lembar";mm5 = mm * 10; mm5 = fR(mm5);
+di = 6; phi(); mm = hbes * berat; m6 = fR(s0(mm))+" per lembar";mm6 = mm * 10; mm6 = fR(mm6);
 di = 7; phi(); mm = hbes * berat; m7 = fR(s0(mm));
 di = 8; phi(); mm = hbes * berat; m8 = fR(s0(mm));
 di = 9; phi(); mm = hbes * berat; m9 = fR(s0(mm));
 di = 10; phi(); mm = hbes * berat; m10 = fR(s0(mm));
 di = 11; phi(); mm = hbes * berat; m11 = fR(s0(mm));
 di = 12; phi(); mm = hbes * berat; m12 = fR(s0(mm));
+var im = Math.floor(7*Math.random());
+if (im > 4){m5 = mm5+" per roll";}else if(im < 2){m6 = mm6+" per roll";}
 function bphi(){
 bbrt = bdi * bdi * 12 * 0.006165;
 bberat = bbrt.toFixed(2);
