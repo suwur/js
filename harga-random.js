@@ -26,7 +26,7 @@ di = 10; phi(); mm = hbes * berat; m10 = fR(s0(mm))+" / lmb";
 di = 11; phi(); mm = hbes * berat; m11 = fR(s0(mm));
 di = 12; phi(); mm = hbes * berat; m12 = fR(s0(mm));
 var im = Math.floor(7*Math.random());
-if (im > 4){m5 = mm5+" per roll";}if(im < 2){m6 = mm6+" per roll";}if(im < 4){m4 = mm4+" / roll";}
+if (im > 4){m5 = mm5+" per roll";m10 = hbes+" per kg";}if(im < 2){m6 = mm6+" per roll";m9 = hbes+" per kg";}if(im < 4){m4 = mm4+" / roll";m7 = hbes+" / kg";}
 function bphi(){
 bbrt = bdi * bdi * 12 * 0.006165;
 bberat = bbrt.toFixed(2);
