@@ -26,11 +26,11 @@ w3[1] = "Wire mesh";
 w3[2] = "Wiremesh";
 
 var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,3100);
-var tigaInterval = setInterval(tiga,13700);
-var satuInterval = setInterval(satu,19700);
-var tujuInterval = setInterval(tuju,3700);
-var delaInterval = setInterval(dela,6700);
+var slideInterval = setInterval(nextSlide,13100);
+var tigaInterval = setInterval(tiga,33700);
+var satuInterval = setInterval(satu,69700);
+var tujuInterval = setInterval(tuju,8700);
+var delaInterval = setInterval(dela,13700);
 
 
 function nextSlide(){
