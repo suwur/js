@@ -54,12 +54,12 @@ satu.style.color = `hsl(${Math.floor(360*Math.random())}deg, 50%, 40%)`;
 function tuju(){
 bi = (bi+1)%b3.length;
 var tuju=document.getElementById("tuju");
-tuju.innerHTML = b3[ti];
+tuju.innerHTML = b3[bi];
 tuju.style.color = `hsl(${Math.floor(360*Math.random())}deg, 50%, 30%)`;
 }
 function dela(){
 di = (di+1)%w3.length;
 var dela=document.getElementById("dela");
-dela.innerHTML = w3[ti];
+dela.innerHTML = w3[di];
 dela.style.color = `hsl(${Math.floor(360*Math.random())}deg, 50%, 20%)`;
 }
