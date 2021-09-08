@@ -66,9 +66,8 @@ if (sub_str.length <= 0){return main_str.length + 1;}
 subStr = sub_str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 return (main_str.match(new RegExp(subStr, 'gi')) || []).length;
 }
-var nui = Math.floor(5*Math.random());var nub = Math.floor(2*Math.random());
+var nui = Math.floor(5*Math.random());
 if (nui > 2){var i1 = 0}else{var i1 = 1}
-if (nub > 0){var i1 = 7}
 var jjud = document.title; 
 var byk = count(jjud, 'wiremesh');
 if (byk > 0){var lab = 'Wiremesh'
@@ -90,6 +89,7 @@ s2[6] = "Rp "+m10;
 }
 else{var lab = 'Besi%20Beton'
 var s1 = new Array ();
+if (Math.floor(2*Math.random()) > 0){var i1 = 7};
 s1[0] = "Besi Beton &#8960; 6 harga = ";
 s1[1] = "Besi Beton &#8960; 8 harga = ";
 s1[2] = "Besi Beton &#8960; 10 harga = ";
