@@ -1,4 +1,4 @@
-var i = 0, ti=0, b3=new Array(), p3=new Array(), si=0,di=0,bi=0,p1=new Array(), slides = new Array();
+var i = 0, ti=0, b3=new Array(),w3=new Array(),p3=new Array(), si=0,di=0,bi=0,p1=new Array(), slides = new Array();
 slides[0] = "MELAYANI KEBUTUHAN";
 slides[1] = "Dimana selalu ada SOLUSI untuk";
 slides[2] = "Siap MELAYANI KEBUTUHAN";
@@ -29,6 +29,9 @@ var currentSlide = 0;
 var slideInterval = setInterval(nextSlide,3100);
 var tigaInterval = setInterval(tiga,13700);
 var satuInterval = setInterval(satu,19700);
+var tujuInterval = setInterval(tuju,3700);
+var delaInterval = setInterval(dela,6700);
+
 
 function nextSlide(){
 currentSlide = (currentSlide+1)%slides.length;
