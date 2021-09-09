@@ -44,9 +44,9 @@ bdi = 19; bphi(); bb = bhbes * bberat; b19 = fR(s0(bb))+" per batang";
 bdi = 22; bphi(); bb = bhbes * bberat; b22 = fR(s0(bb))+" / batang";
 bdi = 25; bphi(); bb = bhbes * bberat; b25 = fR(s0(bb))+" per btg";
 bdi = 32; bphi(); bb = bhbes * bberat; b32 = fR(s0(bb))+" / batang";
-if (im > 4){b10 = bhbes+" per kg";b25 = bhbes * 1000 +" / ton";}
-if(im < 2){b16 = bhbes * 1000 +" per ton";b8 = bhbes+" / KG";}
-if(im < 4){b19 = bhbes+" per kg";b32 = bhbes+" / kg";b6 = bhbes * 1000 +" / ton";}
+if (im > 4){b10 = bhbes+" per kg";b25 = fR(bhbes * 1000) +" / ton";}
+if(im < 2){b16 = fR(bhbes * 1000) +" per ton";b8 = bhbes+" / KG";}
+if(im < 4){b19 = bhbes+" per kg";b32 = bhbes+" / kg";b6 = fR(bhbes * 1000) +" / ton";}
 var bb = new Array ();
 bb[0] = " Termurah";
 bb[1] = " Terbaik";
