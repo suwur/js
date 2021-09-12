@@ -52,11 +52,12 @@ var bbi = bb[bbi];
 arrb = [" Januari"," Februari"," Maret"," April"," Mei"," Juni"," Juli"," Agustus"," September"," Oktober"," November"," Desember"];
 date = new Date();
 bln = date.getMonth();
-bln = arrb[bln]
+bln = arrb[bln];
+bul = bln;
 thn = date.getFullYear();
 
 var bbln = Math.floor(2*Math.random());
-if (bbln==1){bln = bbi}
+if (bbln==1){bln = bbi};
 
 var r3 = new Array ();
 r3[0] = " sedang mencari ";
