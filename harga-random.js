@@ -58,6 +58,17 @@ bb[6] = " Bulan Ini";
 bb[7] = " Hari Ini";
 bb[8] = " Terkini";
 bb[9] = " Terbaru";
+var bc = new Array ();
+bc[0] = "Update ";
+bc[1] = "";
+bc[2] = "Info ";
+bc[3] = "Informasi ";
+bc[4] = "Inilah ";
+bc[5] = "Dapatkan ";
+bc[6] = "Buka: ";
+bc[7] = "Selengkapnya: ";
+bc[8] = "Update: ";
+bc[9] = "Update - ";
 
 function count(main_str, sub_str){
 main_str += '';
