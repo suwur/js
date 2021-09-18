@@ -261,3 +261,13 @@ f5[10] = " dan jangan ragu untuk menghubungi kami segera";
 f5[11] = " update hari ini dan pemesanan";
 var f5i = Math.floor(12*Math.random());
 var f5i = f5[f5i];
+
+var yy = new Array ();
+yy[0] = " pabrik di Gresik juga untuk konstruksi baja";
+yy[1] = " untuk melayani kebutuhan Anda";
+yy[2] = " pabrik di Gresik";
+yy[3] = " pabrik di Gresik juga untuk pagar dan konstruksi baja, sesuai kebutuhan Anda";
+yy[4] = " pabrik di Gresik juga untuk pagar dan konstruksi";
+yy[5] = " siap melayani kebutuhan customer Anda";
+var yi = Math.floor(12*Math.random());
+var yyi = yy[yi];
