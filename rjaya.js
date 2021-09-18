@@ -269,5 +269,5 @@ yy[2] = " pabrik di Gresik";
 yy[3] = " pabrik di Gresik juga untuk pagar dan konstruksi baja, sesuai kebutuhan Anda";
 yy[4] = " pabrik di Gresik juga untuk pagar dan konstruksi";
 yy[5] = " siap melayani kebutuhan customer Anda";
-var yi = Math.floor(12*Math.random());
+var yi = Math.floor(6*Math.random());
 var yyi = yy[yi];
