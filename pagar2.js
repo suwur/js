@@ -399,7 +399,7 @@ p1[396] = " pintu besi garasi";
 p1[397] = " pintu besi garasi lipat";
 p1[398] = " pintu besi garasi minimalis";
 p1[399] = " pintu besi garasi mobil";
-var p1i = Math.floor(571*Math.random());
+var p1i = Math.floor(400*Math.random());
 var p1i = p1[p1i];
 
 var p2 = new Array ();
