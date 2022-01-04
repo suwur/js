@@ -11,12 +11,12 @@ return ribuan = ribuan.join('.').split('').reverse().join('');
 function phi(){
 brt = di * di * pj * 0.006165;
 berat = brt.toFixed(2);
+hbes = Number(hwmes);
   if (di < 5.6){hbes = Number(hwmes) + 200}
-  else if (di < 4.6){hbes = Number(hwmes) + 1700}
-  else if (di > 9.6){hbes = Number(hwmes) + 100}
-  else if (di > 10.5){hbes = Number(hwmes) + 200}
-  else if (di > 11.5){hbes = Number(hwmes) + 1450}
-  else{hbes = Number(hwmes)}
+  if (di < 4.6){hbes = Number(hwmes) + 1700}
+  if (di > 9.6){hbes = Number(hwmes) + 100}
+  if (di > 10.5){hbes = Number(hwmes) + 200}
+  if (di > 11.5){hbes = Number(hwmes) + 1450}
 }
 
 var se = 0;
