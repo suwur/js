@@ -263,11 +263,11 @@ var f5i = Math.floor(12*Math.random());
 var f5i = f5[f5i];
 
 var yy = new Array ();
-yy[0] = " pabrik di Gresik juga untuk konstruksi baja";
+yy[0] = " pabrik yang memperhatikan standar juga untuk konstruksi baja";
 yy[1] = " untuk melayani kebutuhan Anda";
-yy[2] = " pabrik di Gresik";
-yy[3] = " pabrik di Gresik juga untuk pagar dan konstruksi baja, sesuai kebutuhan Anda";
-yy[4] = " pabrik di Gresik juga untuk pagar dan konstruksi";
+yy[2] = " pabrik bersertifikat";
+yy[3] = " pabrik yang memiliki standar yang terbaik juga untuk pagar dan konstruksi baja, sesuai kebutuhan Anda";
+yy[4] = " pabrik standar SNI juga untuk pagar dan konstruksi";
 yy[5] = " siap melayani kebutuhan customer Anda";
 var yi = Math.floor(6*Math.random());
 var yyi = yy[yi];
