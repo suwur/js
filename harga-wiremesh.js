@@ -27,7 +27,7 @@ if (opt.value == 0){pj = 156.6}else{pj = 151.2};
 di = document.getElementById("dia").value;
 phi()
 harga = hbes * berat;
-document.getElementById("result").innerHTML = "<span id = 'res'> Berat (per batang) :  </span>" + berat + "<span id = 'res'> kg <br>HARGA : Rp "+fR(hbes)+" per kg<br> = Rp </span>"+fR(harga)+"<span id = 'res'> per lembar</span>";
+document.getElementById("result").innerHTML = "<span id = 'res'> Berat Wiremesh M" + di + " (per batang) :  </span>" + berat + "<span id = 'res'> kg <br>HARGA Wire Mesh M" + di + " : Rp "+fR(hbes)+" per kg<br> = Rp </span>"+fR(harga)+"<span id = 'res'> per lembar</span>";
 if (se < 1){
 document.getElementById("hitung").insertAdjacentHTML("afterend",
 "<br><br><a class='kec'><input type='button' onclick='hitu()' value=' Semua Ukuran '></a><br>");
