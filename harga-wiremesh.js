@@ -1,4 +1,3 @@
-
 document.getElementById("hw").insertAdjacentHTML("afterend",
 "<br><br><div id='hitung'>Jenis <span id='tra'>________</span>: <select id='jenisW' onChange='hitung()'><option value='0' selected>Standar</option><option value='1'>OverHang</option></select><br><br>Diameter (mm) : <input type='text' onchange='hitung()' onmouseout='hitung()' id='dia' value='6'><br><br><span id='result'></span><br><input type='button' onclick='hitung()' value=' Hitung '></div><style>select,#hitung,#result,#hasil,#hitung input[type='text'],#hitung input[type='button']{font-size:130%;line-height:1.2;font-weight:bold}input[type='text']{max-width:130px;}#res{font-size:60%}#tra{color:transparent}.kec{font-size:110%;margin:26px 0 0 16px}</style><span id='suhw'></span>");
 
@@ -75,7 +74,8 @@ di = 10.7; phi(); mm = hbes * berat; m107 = fR(mm);
 di = 11.7; phi(); mm = hbes * berat; m117 = fR(mm);
  
 document.getElementById("suhw").innerHTML = "Jenis: "+je+"<br>M4 = Rp "+m4+" per lbr = "+mm4+" /roll<br>M5 = Rp "+m5+" per lbr = "+mm5+" /roll<br>M6 = Rp "+m6+" per lbr = "+mm6+" /roll<br>M7 = Rp "+m7+" per lembar <br>M8 = Rp "+m8+" per lembar <br>M9 = Rp "+m9+" per lembar <br>M10 = Rp "+m10+" per lembar <br>M11 = Rp "+m11+" per lembar <br>M12 = Rp "+m12+" per lembar <br><br>4,3 = Rp "+m43+" per lembar <br>5,3 = Rp "+m53+" per lembar <br>6,3 = Rp "+m63+" per lembar <br>7,3 = Rp "+m73+" per lembar <br>8,3 = Rp "+m83+" per lembar <br>9,3 = Rp "+m93+" per lembar <br>10,3 = Rp "+m103+" per lembar <br>11,3 = Rp "+m113+" per lembar <br><br>4,5 = Rp "+m45+" per lembar <br>5,5 = Rp "+m55+" per lembar <br>6,5 = Rp "+m65+" per lembar <br>7,5 = Rp "+m75+" per lembar <br>8,5 = Rp "+m85+" per lembar <br>9,5 = Rp "+m95+" per lembar <br>10,5 = Rp "+m105+" per lembar <br>11,5 = Rp "+m115+" per lembar <br><br>4,7 = Rp "+m47+" per lembar <br>5,7 = Rp "+m57+" per lembar <br>6,7 = Rp "+m67+" per lembar <br>7,7 = Rp "+m77+" per lembar <br>8,7 = Rp "+m87+" per lembar <br>9,7 = Rp "+m97+" per lembar <br>10,7 = Rp "+m107+" per lembar <br>11,7 = Rp "+m117+" per lembar <br>";
-}}else{
+}
+}else{
   var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = 'https://suwur.github.io/js/tabel-wiremesh.js'; 
@@ -83,6 +83,5 @@ document.getElementById("suhw").innerHTML = "Jenis: "+je+"<br>M4 = Rp "+m4+" per
     return false;
 }  
 if (se < 2){document.body.scrollTop += 290;document.documentElement.scrollTop += 290;se = se + 1;}
-document.getElementById("suhw").insertAdjacentHTML("afterend",
-"<br>(daftar ini sebagai acuan saja, permintaan penawaran langsung ke admin)");
+document.getElementById("suhw").insertAdjacentHTML("afterend","<br>(daftar ini sebagai acuan saja, permintaan penawaran langsung ke admin)");
 
