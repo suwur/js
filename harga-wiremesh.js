@@ -33,6 +33,7 @@ document.getElementById("hitung").insertAdjacentHTML("afterend",
 se = se + 1;} 
 }
 
+function hitu(){
 if (opt.value == 0){je = "Standar"}else{je = "OverHang"};
 if (window.innerWidth < 800){ 
 var script = document.createElement('script');
@@ -46,6 +47,7 @@ var script = document.createElement('script');
     script.src = 'https://suwur.github.io/js/tabel-wiremesh.js'; 
     document.getElementsByTagName('head')[0].appendChild(script);
     return false;
-}  
-if (se < 2){document.body.scrollTop += 290;document.documentElement.scrollTop += 290;se = se + 1;}
+}
+if (se < 2){document.body.scrollTop += 290;document.documentElement.scrollTop += 290;se = se + 1;};
 document.getElementById("suhw").insertAdjacentHTML("afterend","<br>(daftar ini sebagai acuan saja, permintaan penawaran langsung ke admin)");
+}
