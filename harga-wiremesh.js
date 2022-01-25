@@ -48,6 +48,4 @@ var script = document.createElement('script');
     document.getElementsByTagName('head')[0].appendChild(script);
     return false;
 }
-if (se < 2){document.body.scrollTop += 290;document.documentElement.scrollTop += 290;se = se + 1;};
-document.getElementById("suhw").insertAdjacentHTML("afterend","<br>(daftar ini sebagai acuan saja, permintaan penawaran langsung ke admin)");
 }
