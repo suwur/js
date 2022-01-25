@@ -1,5 +1,5 @@
 function hitu(){
-if (opt.value == 0){je = "Standar"}else{je = "OverHang"};
+
 di = 4; phi(); mm = hbes * berat; m4 = fR(mm);mm4 = mm * 10; mm4 = fR(mm4);
 di = 5; phi(); mm = hbes * berat; m5 = fR(mm);mm5 = mm * 10; mm5 = fR(mm5);
 di = 6; phi(); mm = hbes * berat; m6 = fR(mm);mm6 = mm * 10; mm6 = fR(mm6);
