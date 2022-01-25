@@ -1,5 +1,5 @@
 function mn(n) {
-    for (var r = ["c", "d", "e", "f"], e = n, t = new Array, a = 0; a <= e - 1; a++) {
+    for (var r = ["d", "e", "f"], e = n, t = new Array, a = 0; a <= e - 1; a++) {
         t[a] = r[parseInt(Math.random() * r.length)];
         t = t;
         rn = t.join("")
@@ -12,5 +12,7 @@ h8 = h8 + "<tr> <td class='afan-9liz'>wiremesh</td> <td class='afan-71rk'>10,5</
 h8 = h8 + "<tr> <td class='afan-lboi'>wiremesh</td> <td class='afan-yz93'>9,3</td> <td class='afan-yz93'>83,50</td> <td class='afan-yz93'><span style='color:#111188;font-weight:bold;text-align:right;'> <a title='Update"+bul+" "+thn+"'>"+(fR(hwmes+50))+"</a> </span><br /></td> <td class='afan-yz93'><span style='color:#111188;font-weight:bold;text-align:right;'> <a title='Update"+bul+" "+thn+"'>"+(fR((hwmes+50)*83.5))+"</a> </span><br /></td> <td class='afan-yz93'><span style='color:#111188;font-weight:bold;text-align:right;'> <a title='Update"+bul+" "+thn+"'>"+(fR((Math.ceil((hwmes+50)*83.5/50))*50))+"</a> </span><br /></td> </tr> <tr> <td class='afan-9liz'>wiremesh</td> <td class='afan-71rk'>10,3</td> <td class='afan-71rk'>102,42</td> <td class='afan-71rk'><span style='color:#111188;font-weight:bold;text-align:right;'> <a title='Update"+bul+" "+thn+"'>"+(fR(hwmes+100))+"</a> </span><br /></td> <td class='afan-71rk'><span style='color:#111188;font-weight:bold;text-align:right;'> <a title='Update"+bul+" "+thn+"'>"+(fR((hwmes+100)*102.42))+"</a> </span><br /></td> <td class='afan-71rk'><span style='color:#111188;font-weight:bold;text-align:right;'> <a title='Update"+bul+" "+thn+"'>"+(fR((Math.ceil((hwmes+100)*102.42/50))*50))+"</a> </span><br /></td> </tr> <tr> <td class='afan-lboi'>wiremesh</td> <td class='afan-yz93'>11,3</td> <td class='afan-yz93'>123,28</td> <td class='afan-yz93'><span style='color:#111188;font-weight:bold;text-align:right;'> <a title='Update"+bul+" "+thn+"'>"+(fR(hwmes+1000))+"</a> </span><br /></td> <td class='afan-yz93'><span style='color:#111188;font-weight:bold;text-align:right;'> <a title='Update"+bul+" "+thn+"'>"+(fR((hwmes+1000)*123.28))+"</a> </span><br /></td> <td class='afan-yz93'><span style='color:#111188;font-weight:bold;text-align:right;'> <a title='Update"+bul+" "+thn+"'>"+(fR((Math.ceil((hwmes+1000)*123.28/50))*50))+"</a> </span><br /></td> </tr></tbody></table>";
 document.getElementById("suhw").innerHTML = h8;
 
-if (se < 2){document.body.scrollTop += 290;document.documentElement.scrollTop += 290;se = se + 1;};
-document.getElementById("suhw").insertAdjacentHTML("afterend","<br>(daftar ini sebagai acuan saja, permintaan penawaran langsung ke admin)");
+if (se < 2){document.body.scrollTop += 290;document.documentElement.scrollTop += 290;se = se + 1;
+           document.getElementById("suhw").insertAdjacentHTML("afterend","<br>(daftar ini sebagai acuan saja, permintaan penawaran langsung ke admin)");
+           }
+
