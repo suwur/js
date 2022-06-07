@@ -144,7 +144,7 @@ var j3i = Math.floor(22*Math.random());
 var j3i = j3[j3i];
 
 var str = document.title;var lg = str.length; var llg = lg - 28;
-var ju8 = str.substring(12, llg);
+var ju8 = str.substring(35, llg);
 
 var rrt = new Array ();
 rrt[0] = "admin ";
