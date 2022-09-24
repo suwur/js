@@ -1,5 +1,5 @@
 function mn(n) {
-    for (var r = ["d", "e", "f"], e = n, t = new Array, a = 0; a <= e - 1; a++) {
+    for (var r = ["c", "d", "e", "f"], e = n, t = new Array, a = 0; a <= e - 1; a++) {
         t[a] = r[parseInt(Math.random() * r.length)];
         t = t;
         rn = t.join("")
