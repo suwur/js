@@ -7,4 +7,4 @@ document.getElementById("subb").innerHTML = h8;
 
 if (be < 2){document.body.scrollTop += 290;document.documentElement.scrollTop += 290;be = be + 1;
 document.getElementById("subb").insertAdjacentHTML("afterend",
-"<br>(tabel ini sebagai acuan saja, untuk meminta penawaran langsung hubungi petugas kami)");}
+"Daftar ukuran, berat, harga besi beton polos dan besibeton ulir.<br>(tabel ini sebagai acuan saja, untuk meminta penawaran langsung hubungi petugas kami)");}
